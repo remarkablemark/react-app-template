@@ -18,4 +18,9 @@ class App extends Component {
   }
 }
 
+if (process.env.NODE_ENV === 'development') {
+  const { hot } = require('react-hot-loader');
+  App = hot(module)(App);
+}
+
 export default App;
