@@ -1,17 +1,13 @@
 #!/bin/bash
 
-# run lint and tests first
-npm run lint
-CI=true npm test -- --coverage
-
 # make sure working index is clean
-stash_output=$(git stash)
+stash_output=$(git add . && git stash)
 
-# remove `build` directory
-npm run clean
+# run lint and tests first
+npm run lint && npm test
 
-# build production bundle
-npm run build
+# remove `build` directory and build production bundle
+npm run clean && npm run build
 
 # deploy contents in `build` to remote branch `gh-pages`
 if [[ $(command -v npx) ]]; then
