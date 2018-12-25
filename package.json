@@ -6,12 +6,10 @@
   "scripts": {
     "build": "NODE_ENV=production react-app-rewired build",
     "clean": "rimraf build",
-    "commitmsg": "commitlint -e $GIT_PARAMS",
     "deploy": "scripts/deploy.sh",
     "eject": "react-scripts eject",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "npm run lint -- --fix",
-    "precommit": "lint-staged",
     "release": "standard-version --no-verify",
     "start": "NODE_ENV=development react-app-rewired start",
     "test": "react-app-rewired test --env=jsdom",
