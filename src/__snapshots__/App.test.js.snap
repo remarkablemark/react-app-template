@@ -12,20 +12,21 @@ exports[`renders correctly 1`] = `
       className="App-logo"
       src="logo.svg"
     />
-    <h1
-      className="App-title"
+    <p>
+      Edit 
+      <code>
+        src/App.js
+      </code>
+       and save to reload.
+    </p>
+    <a
+      className="App-link"
+      href="https://reactjs.org"
+      rel="noopener noreferrer"
+      target="_blank"
     >
-      Welcome to React
-    </h1>
+      Learn React
+    </a>
   </header>
-  <p
-    className="App-intro"
-  >
-    To get started, edit 
-    <code>
-      src/App.js
-    </code>
-     and save to reload.
-  </p>
 </div>
 `;
