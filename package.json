@@ -1,7 +1,7 @@
 {
   "name": "react-app-template",
   "version": "0.0.0",
-  "description": "A React app template scaffolded by CRA.",
+  "description": "React app template scaffolded by CRA.",
   "author": "Mark <mark@remarkablemark.org>",
   "scripts": {
     "build": "NODE_ENV=production react-app-rewired build",
@@ -12,7 +12,7 @@
     "lint:fix": "npm run lint -- --fix",
     "release": "standard-version --no-verify",
     "start": "NODE_ENV=development react-app-rewired start",
-    "test": "npm run test:watch -- --ci --coverage",
+    "test": "CI=true npm run test:watch -- --coverage",
     "test:watch": "react-app-rewired test --env=jsdom"
   },
   "homepage": "https://remarkablemark.github.io/react-app-template/",
@@ -27,12 +27,24 @@
     "lint-staged": "9.4.0",
     "prettier": "1.18.2",
     "react": "16.10.1",
-    "react-app-rewired": "1.6.2",
+    "react-app-rewired": "2.1.3",
     "react-dom": "16.10.1",
     "react-hot-loader": "4.12.14",
-    "react-scripts": "1.1.4",
+    "react-scripts": "3.1.2",
     "rimraf": "3.0.0",
     "standard-version": "7.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "engines": {
     "node": ">=8",
