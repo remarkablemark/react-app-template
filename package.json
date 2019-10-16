@@ -32,7 +32,7 @@
     "react-hot-loader": "4.12.14",
     "react-scripts": "3.1.2",
     "rimraf": "3.0.0",
-    "standard-version": "7.0.0"
+    "standard-version": "6"
   },
   "browserslist": {
     "production": [
