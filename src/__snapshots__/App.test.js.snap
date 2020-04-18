@@ -4,6 +4,7 @@ exports[`renders correctly 1`] = `
 <div
   className="App"
 >
+  <ButtonAppBar />
   <header
     className="App-header"
   >
