@@ -12,8 +12,7 @@
     "lint:fix": "npm run lint -- --fix",
     "release": "standard-version --no-verify",
     "start": "NODE_ENV=development react-app-rewired start",
-    "test": "CI=true npm run test:watch -- --coverage",
-    "test:watch": "react-app-rewired test --env=jsdom"
+    "test": "react-app-rewired test --env=jsdom"
   },
   "homepage": "https://remarkablemark.github.io/react-app-template/",
   "devDependencies": {
