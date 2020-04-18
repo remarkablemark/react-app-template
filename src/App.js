@@ -24,8 +24,8 @@ function App() {
 }
 
 if (process.env.NODE_ENV === 'development') {
-  const { hot } = require('react-hot-loader');
-  App = hot(module)(App); // eslint-disable-line no-func-assign
+  const { hot } = require('react-hot-loader/root');
+  App = hot(App); // eslint-disable-line no-func-assign
 }
 
 export default App;
