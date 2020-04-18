@@ -29,7 +29,7 @@
     "react": "16.13.1",
     "react-app-rewired": "2.1.5",
     "react-dom": "16.13.1",
-    "react-hot-loader": "4.12.17",
+    "react-hot-loader": "4.12.20",
     "react-scripts": "3.2.0",
     "rimraf": "3.0.0",
     "standard-version": "6"
