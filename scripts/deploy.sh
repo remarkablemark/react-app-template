@@ -7,7 +7,7 @@ stash_output=$(git add . && git stash)
 npm run lint
 
 # run tests
-npm test
+CI=true npm test -- --coverage
 
 # remove `build` folder
 npm run clean
