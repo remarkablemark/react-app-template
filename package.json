@@ -47,7 +47,8 @@
   },
   "engines": {
     "node": ">=8",
-    "npm": ">=5.3"
+    "npm": ">=5.3",
+    "yarn": ">=1"
   },
   "private": true,
   "license": "MIT"
