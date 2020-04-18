@@ -1,6 +1,6 @@
 {
   "name": "react-app-template",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "React app template scaffolded by CRA.",
   "author": "Mark <mark@remarkablemark.org>",
   "scripts": {
@@ -31,7 +31,7 @@
     "react-dom": "16.13.1",
     "react-hot-loader": "4.12.20",
     "react-scripts": "3.4.1",
-    "standard-version": "6"
+    "standard-version": "7.1.0"
   },
   "browserslist": {
     "production": [
