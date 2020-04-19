@@ -8,7 +8,7 @@
     "clean": "rm -rf build",
     "deploy": "scripts/deploy.sh",
     "eject": "react-scripts eject",
-    "lint": "eslint --ignore-path .gitignore .",
+    "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
     "lint:fix": "npm run lint -- --fix",
     "release": "standard-version --no-verify",
     "start": "NODE_ENV=development react-app-rewired start",
