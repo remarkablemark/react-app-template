@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-app-template/static/css/main.d1b05096.chunk.css",
+    "main.js": "/react-app-template/static/js/main.c1111672.chunk.js",
+    "main.js.map": "/react-app-template/static/js/main.c1111672.chunk.js.map",
+    "runtime-main.js": "/react-app-template/static/js/runtime-main.a084cea9.js",
+    "runtime-main.js.map": "/react-app-template/static/js/runtime-main.a084cea9.js.map",
+    "static/js/2.95e6f362.chunk.js": "/react-app-template/static/js/2.95e6f362.chunk.js",
+    "static/js/2.95e6f362.chunk.js.map": "/react-app-template/static/js/2.95e6f362.chunk.js.map",
+    "index.html": "/react-app-template/index.html",
+    "precache-manifest.2c647289f5e85b9355f1906192f41f31.js": "/react-app-template/precache-manifest.2c647289f5e85b9355f1906192f41f31.js",
+    "service-worker.js": "/react-app-template/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/react-app-template/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.95e6f362.chunk.js.LICENSE.txt": "/react-app-template/static/js/2.95e6f362.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/react-app-template/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a084cea9.js",
+    "static/js/2.95e6f362.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.c1111672.chunk.js"
+  ]
+}
