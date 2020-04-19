@@ -1,6 +1,6 @@
 {
   "hooks": {
     "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-    "pre-commit": "CI=true npm test -- --coverage && lint-staged"
+    "pre-commit": "CI=true npm test -- --coverage && npm run tsc && lint-staged"
   }
 }

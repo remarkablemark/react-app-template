@@ -5,6 +5,7 @@ stash_output=$(git add . && git stash)
 
 # run lint
 npm run lint
+npm run tsc
 
 # run tests
 CI=true npm test -- --coverage
